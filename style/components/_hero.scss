@@ -1,0 +1,36 @@
+.hero {
+  margin: 20rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include respond(tab-port) {
+    flex-direction: column-reverse;
+    margin: 10rem 0;
+  }
+  &__text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 5.8rem;
+    line-height: 7rem;
+    color: #42446e;
+    span {
+      font-family: inherit;
+    }
+    @include respond(tab-port) {
+      font-size: 5rem;
+    }
+  }
+  &__avatar {
+    max-width: 35rem;
+    max-height: 35rem;
+    border-radius: 50%;
+    padding: 0.2rem;
+    background-image: linear-gradient(to bottom, #e70faa, #13b0f5);
+    img {
+      width: 100%;
+    }
+    @include respond(tab-port) {
+      margin-bottom: 4rem;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+}
+a,
+a:link,
+a:active {
+  text-decoration: none;
+  color: #666;
+  cursor: pointer;
+}

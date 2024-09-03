@@ -1,0 +1,22 @@
+.techStack {
+  &__stacks {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10rem 0 20rem;
+    justify-content: center;
+    img {
+      width: 12rem;
+      height: 12rem;
+      image-rendering: optimizeQuality;
+      object-fit: contain;
+      margin: 2rem 4rem;
+    }
+    @include respond(tab-port) {
+      margin: 8rem 0 10rem;
+      img {
+        width: 8rem;
+        height: 8rem;
+      }
+    }
+  }
+}
